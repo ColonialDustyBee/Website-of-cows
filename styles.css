@@ -1,0 +1,94 @@
+.header {
+    padding: 80px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    background-color: azure;
+}
+.header p{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+.container{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    width: 50px;
+    height: 50px;
+}
+.button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button.button1{
+    background-color: blue;
+}
+.button.button2{
+    background-color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 30%; 
+  background-color: bisque; 
+  padding: 20px;
+}
+.side > h4{
+  text-align: bottom;
+  padding: 20px;
+}
+.main {
+  flex: 70%; 
+  background-color: blanchedalmond; 
+  padding: 20px; 
+}
+
+.navbar {
+  overflow: hidden; 
+  background-color: black;
+}
+
+.navbar a {
+  float: left; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
+}
+
+.navbar a.right {
+  float: right; 
+
+}
+.TopicBar{
+  overflow: hidden;
+  background-color: bisque;
+}
+.TopicBar h3{
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+.quizBody{
+  background-color: blanchedalmond;
+}
+#body{
+    background-color: blanchedalmond;
+}
